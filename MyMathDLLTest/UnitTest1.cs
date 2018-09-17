@@ -20,5 +20,11 @@ namespace MyMathDLLTest
 
             Assert.AreEqual(m.Add(-3, -4), -7);
         }
+
+        [TestMethod]
+        public void MultiplyTest()
+        {
+            Assert.IsTrue(m.Multiply(2,2, 2).Equals(8));
+        }
     }
 }
